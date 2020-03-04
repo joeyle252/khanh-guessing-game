@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Guessing Game</title>
+</head>
+
+<body>
+    <div class="myGame">
+        <h1> PLEASE GUESS A NUMBER. <br>THE RULES ARE:</h1>
+        <p> A number from 1 to 100 will be choose and keep secrect</p>
+        <p> You can choose any number you want in 30s then press Guess Button </p>
+        <p>  After compare with random number, if you win, please receive a gift as a big hug from us </p>
+        <p> If you are not lucky this time, hope you can try again and get a free hug next time! You have 5 chances total. </p>
+        <p> Goodluck guy!</p>
+
+        <div id="chanceArea"> Chance: 5</div>
+        <div id="timecount">  </div>
+        <div> 
+        <input type="number" id="userInput"> </input>
+        </div>
+        <div> 
+        <button id="guessButton"> Guess </button>
+        </div>
+        <div id="resultArea"> </div>
+
+        <h1 id="historyArea"> history is: </h1>
+
+
+        <button id="resetButton"> Reset</button>
+    </div>
+
+
+    <script src="main.js"> </script>
+</body>
+
+</html>

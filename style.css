@@ -1,0 +1,29 @@
+
+.myGame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%px;
+    height: 720px;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    color:yellow; ;
+    background-color: green;
+}
+#userInput {
+    width: 100px;
+    height: 40px;
+    font-size: 30px;
+}
+#guessButton {
+    margin-top: 15px;
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+}
+#resetButton {
+    width: 100px;
+    height: 40px;
+    font-size: 30px;
+}
